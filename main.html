@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY PHOTO-APP</title>
+    </head>
+    <body>
+        <header>
+            <section class="navsection">
+              <div class="logo">
+                  <h1>My Photo-App</h1>
+              </div>
+            </section>
+            <main>
+                <dev class="leftside">
+                    <h3> Created By</h3> 
+                    <h1> STUTHI</h1>
+                    <a href="#" class="btn2">Upload</a>
+                    <img [src]="url" width="100" height="100" alt=" ">
+                    <input type ="file" (change)="selectFile($event)">
+                </dev>
+            </main>
+        </header>
+    </body>
+</html>
